@@ -2,6 +2,9 @@
 import { useState } from "react";
 import Image from "next/image";
 import { menuData } from "@/data/menuData";
+import { FaShoppingCart, FaTimes } from "react-icons/fa";
+import { GiMeal, GiSparkles, GiIceCreamCone } from "react-icons/gi";
+import { MdRestaurant } from "react-icons/md";
 
 export default function MenuPage() {
   const [activeCategory, setActiveCategory] = useState("all");
@@ -77,7 +80,7 @@ export default function MenuPage() {
         onClick={() => setShowCart(!showCart)}
         className="fixed top-20 right-6 z-50 bg-gradient-to-r from-orange-500 to-red-500 text-white p-4 rounded-full shadow-2xl hover:scale-110 transition-all duration-300"
       >
-        🛒{" "}
+        <FaShoppingCart />
         <span className="ml-2 bg-white text-orange-500 px-2 py-1 rounded-full text-sm font-bold">
           {cart.length}
         </span>
@@ -93,7 +96,7 @@ export default function MenuPage() {
                 onClick={() => setShowCart(false)}
                 className="text-gray-500 hover:text-gray-700 text-2xl"
               >
-                ×
+                <FaTimes />
               </button>
             </div>
 
@@ -122,7 +125,7 @@ export default function MenuPage() {
                         onClick={() => removeFromCart(item.id)}
                         className="text-red-500 hover:text-red-700 font-bold"
                       >
-                        ×
+                        <FaTimes />
                       </button>
                     </div>
                   ))}
@@ -140,7 +143,8 @@ export default function MenuPage() {
                     onClick={sendWhatsAppOrder}
                     className="w-full bg-green-500 hover:bg-green-600 text-white py-3 rounded-lg font-bold transition-colors duration-300"
                   >
-                    📱 Order via WhatsApp
+                    <MdRestaurant />
+                    Order via WhatsApp
                   </button>
                 </div>
               </>
@@ -164,13 +168,13 @@ export default function MenuPage() {
         {/* Animated background elements */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <div className="absolute top-20 left-10 text-6xl opacity-10 animate-pulse">
-            🥟
+            <GiMeal />
           </div>
           <div className="absolute top-40 right-20 text-4xl opacity-10 animate-bounce">
-            🍦
+            <GiIceCreamCone />
           </div>
           <div className="absolute bottom-20 left-1/4 text-5xl opacity-10 animate-pulse">
-            ✨
+            <GiSparkles />
           </div>
         </div>
       </section>
