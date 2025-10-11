@@ -6,7 +6,7 @@ export const menuData = {
       price: "Rs. 60/-",
       description: "Chicken & Potato Damosa",
       category: "damosa-originals",
-      image: "/samosa-alood-up.jpg",
+      image: "/alood.png",
     },
     {
       id: 2,
@@ -14,7 +14,7 @@ export const menuData = {
       price: "Rs. 120/-",
       description: "Chicken & Cheese Damosa",
       category: "damosa-originals",
-      image: "/samosa-emotional-cheese.jpg",
+      image: "/Cheese.png",
     },
     {
       id: 3,
@@ -22,7 +22,7 @@ export const menuData = {
       price: "Rs. 50/-",
       description: "Mood + Cheese Damosa",
       category: "damosa-originals",
-      image: "/samosa-moocheeze.jpg",
+      image: "/MooCheese.png",
     },
     {
       id: 4,
@@ -30,7 +30,7 @@ export const menuData = {
       price: "Rs. 50/-",
       description: "Nutella Inside",
       category: "damosa-originals",
-      image: "/samosa-pookie-damosa.jpg",
+      image: "/Nutella.png",
     },
   ],
   iceCreams: [
@@ -41,6 +41,8 @@ export const menuData = {
       cupPrice: "Rs. 150/-",
       shakePrice: "Rs. 500/-",
       category: "ice-cream",
+      image: "/IceCreamSweetMango.png",
+      shakeImage: "/MangoShake.png",
     },
     {
       id: 2,
@@ -49,6 +51,8 @@ export const menuData = {
       cupPrice: "Rs. 150/-",
       shakePrice: "Rs. 500/-",
       category: "ice-cream",
+      image: "/IceCreamWhiteView.png",
+      shakeImage: "/VanillaShake.png",
     },
     {
       id: 3,
@@ -57,6 +61,8 @@ export const menuData = {
       cupPrice: "Rs. 150/-",
       shakePrice: "Rs. 500/-",
       category: "ice-cream",
+      image: "/IceCreamWhiteView.png",
+      shakeImage: "/StrawBerryShake.png",
     },
     {
       id: 4,
@@ -65,6 +71,8 @@ export const menuData = {
       cupPrice: "Rs. 250/-",
       shakePrice: "Rs. 500/-",
       category: "ice-cream",
+      image: "/IceCreamSubtleCrack.png",
+      shakeImage: "/VanillaCrushedCandyShake.png",
     },
     {
       id: 5,
@@ -73,6 +81,8 @@ export const menuData = {
       cupPrice: "Rs. 150/-",
       shakePrice: "Rs. 500/-",
       category: "ice-cream",
+      image: "/IceCreamDarkOreo.png",
+      shakeImage: "/OreoShake.png",
     },
     {
       id: 6,
@@ -81,6 +91,8 @@ export const menuData = {
       cupPrice: "Rs. 200/-",
       shakePrice: "Rs. 500/-",
       category: "ice-cream",
+      image: "/IceCreamQuietGreen.png",
+      shakeImage: "/PishtachioShake.png",
     },
     {
       id: 7,
@@ -89,6 +101,8 @@ export const menuData = {
       cupPrice: "Rs. 150/-",
       shakePrice: "Rs. 500/-",
       category: "ice-cream",
+      image: "/IceCreamMeltedNight.png",
+      shakeImage: "/ChoclateShake.png",
     },
     {
       id: 8,
@@ -97,6 +111,8 @@ export const menuData = {
       cupPrice: "Rs. 150/-",
       shakePrice: "Rs. 500/-",
       category: "ice-cream",
+      image: "/IceCreamCandyDust.png",
+      shakeImage: "/VanillaCrushedCandyShake.png",
     },
     {
       id: 9,
@@ -105,22 +121,34 @@ export const menuData = {
       cupPrice: "Rs. 200/-",
       shakePrice: "Rs. 500/-",
       category: "ice-cream",
+      image: "/IceCreamBlueThought.png",
+      shakeImage: "/VanillaBlueBerryShake.png",
     },
   ],
   extras: [
     {
       id: 1,
+      name: "Not Okay Sauce",
+      price: "Rs. 20/-",
+      description: "Bold and spicy sauce",
+      category: "sauces",
+      image: "/NotOkaySauce.png",
+    },
+    {
+      id: 2,
       name: "Imli Issues",
       price: "Rs. 20/-",
       description: "Tangy tamarind sauce",
       category: "sauces",
+      image: "/ImliIssues.png",
     },
     {
-      id: 2,
+      id: 3,
       name: "Peace Sauce",
       price: "Rs. 20/-",
       description: "Mild and soothing sauce",
       category: "sauces",
+      image: "/PeaceSauce.png",
     },
   ],
 };
